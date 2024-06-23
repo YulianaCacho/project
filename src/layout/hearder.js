@@ -3,8 +3,8 @@ import '/workspaces/project/src/Header.css'; // Importar el archivo CSS para est
 
 const Header = () => {
     return (
-        <header>
-            <nav className="navbar navbar-expand-lg bg-dark">
+        <header style={{ backgroundColor: '#353e68' }}>
+            <nav className="navbar navbar-expand-lg ">
                 <div className="container-fluid">
                     <Link className="navbar-brand text-white" to="/">
                         PC BUILDING WS

@@ -3,7 +3,7 @@ import React, { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import Header from "./layout/hearder";
 import Carrusel from "./layout/carrusel";
-import Aside from "./layout/aside";
+import Aside from "./layout/preguntas";
 import Footer from "./layout/footer";
 import Description from "./layout/contactanos";
 import {
@@ -32,7 +32,7 @@ const router = createBrowserRouter([
                 <Carrusel></Carrusel>
               </div>
               <div className="col-md-5">
-                <Aside></Aside>
+                <Preguntas></Preguntas>
               </div>
             </div>
           </div>

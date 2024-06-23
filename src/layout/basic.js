@@ -13,7 +13,7 @@ const Basic = () => {
                         <Outlet></Outlet>
                     </div>
                 </div>
-                <div style={{backgroundColor:'#e6e6e6'}}> <Footer /> </div>
+                <div> <Footer /> </div>
             </StrictMode>
         </>
     );

@@ -3,7 +3,7 @@ import '/workspaces/project/src/css/Contactanos.css';
 
 const Contactanos = () => {
     return (
-        <aside style={{ backgroundColor: '#cdced2', padding: '20px' }}>
+        <contactanos style={{ backgroundColor: '#e1e2ef', padding: '20px' }}>
             <br />
             <center><h2>Contactanos</h2></center>
             <br />
@@ -55,7 +55,7 @@ const Contactanos = () => {
                     </div>
                 </div>
             </div>
-        </aside>
+        </contactanos>
     );
 };
 

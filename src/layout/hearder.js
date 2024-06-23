@@ -1,41 +1,48 @@
-const feather = require('feather-icons');
-setTimeout (() =>{
-    feather.replace();
-}, 1000);
-const Hearder= () => {
-    return <hearder>
-    <nav className="navbar navbar-expand-lg" style={{backgroundColor: '#001259'}}>
-      <div className="container">
-        <a className="navbar-brand" href="#" style={{ color: '#ffffff' }}><i data-feather="sun"></i> ¡Te mereces días de vacaciones!</a>
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            <li className="nav-item">
-            <a className="nav-link dropdown-toggle" href="#" style={{ color: '#afafaf' }} role="button" data-bs-toggle="dropdown" aria-expanded="false">Playas</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#" style={{ color: '#ffffff' }}><i data-feather="globe"></i>Latinoamerica</a>
-            </li>
-            <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="#" style={{ color: '#afafaf' }} role="button" data-bs-toggle="dropdown" aria-expanded="false">Lugares</a>
-              <ul className="dropdown-menu">
-                <li><a className="dropdown-item" href="#">Action</a></li>
-                <li><a className="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></hr></li>
-                <li><a className="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-          </ul>
-          <form className="d-flex" role="buscar">
-            <input className="form-control me-2" type="buscar" placeholder="Playa ..." aria-label="Buscar"></input>
-            <button className="btn btn-outline-primary" type="submit">Buscar</button>
-          </form>
-        </div>
-      </div>
-    </nav>
-    <div style={{ borderBottom: '1px solid #f5f5f5' }}></div> {/* Línea divisoria */}
-    </hearder>
+import { Link } from 'react-router-dom';
+import '/workspaces/project/src/Header.css'; // Importar el archivo CSS para estilos personalizados
+
+const Hearder = () => {
+    return (
+        <header>
+            <nav className="navbar navbar-expand-lg bg-dark">
+                <div className="container-fluid">
+                    <Link className="navbar-brand text-white" to="/">
+                        PC BUILDING WS
+                    </Link>
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
+                    </button>
+                    <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
+                        <ul className="navbar-nav mx-auto">
+                            <li className="nav-item">
+                                <Link className="nav-link active text-white" to="/">
+                                    <i data-feather="cpu"></i> Inicio
+                                </Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link active text-white" to="/noticias">
+                                    <i data-feather="book-open"></i> Tienda
+                                </Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link active text-white" to="/auspicios">
+                                    <i data-feather="globe"></i> Preguntas Frecuentes
+                                </Link>
+                            </li>
+                            <ul className="navbar-nav ms-auto position-absolute end-0"></ul>
+                            <li className="nav-item">
+                                <Link className="nav-link active text-white" to="/comprar">
+                                    <span className="badge text-bg-light">
+                                        <i data-feather="shopping-cart"></i> ¡COMPRAR!
+                                    </span>
+                                </Link>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    );
 }
+
 export default Hearder;

@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import '/workspaces/project/src/Header.css'; // Importar el archivo CSS para estilos personalizados
 
-const Hearder = () => {
+const Header = () => {
     return (
         <header>
             <nav className="navbar navbar-expand-lg bg-dark">
@@ -29,20 +29,21 @@ const Hearder = () => {
                                     <i data-feather="globe"></i> Preguntas Frecuentes
                                 </Link>
                             </li>
-                            <ul className="navbar-nav ms-auto position-absolute end-0"></ul>
-                            <li className="nav-item">
-                                <Link className="nav-link active text-white" to="/comprar">
-                                    <span className="badge text-bg-light">
-                                        <i data-feather="shopping-cart"></i> ¡COMPRAR!
-                                    </span>
-                                </Link>
-                            </li>
                         </ul>
                     </div>
+                    <ul className="navbar-nav position-absolute end-0">
+                        <li className="nav-item">
+                            <Link className="nav-link active text-white" to="/comprar">
+                                <span className="badge text-bg-light">
+                                    <i data-feather="shopping-cart"></i> ¡COMPRAR!
+                                </span>
+                            </Link>
+                        </li>
+                    </ul>
                 </div>
             </nav>
         </header>
     );
 }
 
-export default Hearder;
+export default Header;

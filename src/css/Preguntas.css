@@ -1,0 +1,12 @@
+.card {
+    cursor: pointer;
+}
+
+.card-body {
+    display: flex;
+    align-items: center;
+}
+
+.card-body i {
+    margin-right: 10px;
+}

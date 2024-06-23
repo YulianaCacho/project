@@ -3,7 +3,7 @@ import React, { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import Header from "./layout/hearder";
 import Carrusel from "./layout/carrusel";
-import Aside from "./layout/preguntas";
+import Preguntas from "./layout/preguntas";
 import Footer from "./layout/footer";
 import Description from "./layout/contactanos";
 import {

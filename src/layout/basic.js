@@ -13,6 +13,7 @@ const Basic = () => {
                         <Outlet></Outlet>
                     </div>
                 </div>
+                <div>Contactanos </div>
                 <div> <Footer /> </div>
             </StrictMode>
         </>

@@ -5,7 +5,7 @@ import Header from "./layout/hearder";
 import Carrusel from "./layout/carrusel";
 import Aside from "./layout/aside";
 import Footer from "./layout/footer";
-import Description from "./layout/description";
+import Description from "./layout/contactanos";
 import {
   createBrowserRouter,
   RouterProvider,
@@ -30,7 +30,6 @@ const router = createBrowserRouter([
             <div className="row">
               <div className="col-md-7 ">
                 <Carrusel></Carrusel>
-                <Description></Description>
               </div>
               <div className="col-md-5">
                 <Aside></Aside>

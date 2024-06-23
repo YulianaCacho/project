@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom';
-import '/workspaces/project/src/Header.css'; // Importar el archivo CSS para estilos personalizados
+import '/workspaces/project/src/css/Header.css'; // Importar el archivo CSS para estilos personalizados
 
 const Header = () => {
     return (
-        <header style={{ backgroundColor: '#353e68' }}>
-            <nav className="navbar navbar-expand-lg ">
+        <header>
+            <nav className="navbar navbar-expand-lg bg-dark ">
                 <div className="container-fluid">
                     <Link className="navbar-brand text-white" to="/">
                         PC BUILDING WS

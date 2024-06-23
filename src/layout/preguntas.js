@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '/workspaces/project/src/Preguntas.css';
+import '/workspaces/project/src/css/Preguntas.css';
 
 const Preguntas = () => {
     const [activeIndex, setActiveIndex] = useState(null);

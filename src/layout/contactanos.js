@@ -1,5 +1,5 @@
 import React from 'react';
-import '/workspaces/project/src/Contactanos.css'; // Asegúrate de crear e importar un archivo CSS para estilos personalizados
+import '/workspaces/project/src/css/Contactanos.css'; 
 
 const Contactanos = () => {
     return (

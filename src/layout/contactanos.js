@@ -3,7 +3,7 @@ import '/workspaces/project/src/Contactanos.css'; // Asegúrate de crear e impor
 
 const Contactanos = () => {
     return (
-        <aside style={{ backgroundColor: '#b3e5fc', padding: '20px' }}>
+        <aside style={{ backgroundColor: '#cdced2', padding: '20px' }}>
             <br />
             <center><h2>Contactanos</h2></center>
             <br />
@@ -17,14 +17,14 @@ const Contactanos = () => {
                                 </label>
                                 <input type="text" required className="form-control" id="formGroupExampleInput" placeholder="Diego Bohorquez Novoa" />
                             </div>
-                            <br />
+                            
                             <div className="mb-3">
                                 <label htmlFor="formGroupExampleInput2" className="form-label">
                                     <i data-feather="mail"></i> Correo Electrónico:
                                 </label>
                                 <input type="email" required className="form-control" id="formGroupExampleInput2" placeholder="liliana_24@hotmail.com" />
                             </div>
-                            <br />
+                            
                             <div className="mb-3">
                                 <label htmlFor="formGroupExampleInput3" className="form-label">
                                     <i data-feather="users"></i> Mensaje:
@@ -45,8 +45,11 @@ const Contactanos = () => {
                         <br />
                         <ul className="list-unstyled social-list">
                             <li><i data-feather="facebook"></i> Facebook</li>
+                            <br />
                             <li><i data-feather="twitter"></i> Twitter</li>
+                            <br />
                             <li><i data-feather="instagram"></i> Instagram</li>
+                            <br />
                             <li><i data-feather="linkedin"></i> LinkedIn</li>
                         </ul>
                     </div>

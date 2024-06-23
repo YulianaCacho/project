@@ -1,9 +1,14 @@
-.col-md-6 h3 {
+.redes-title {
     text-align: center;
+    width: 100%;
 }
 
-/* Mover la lista de redes sociales a la derecha */
-.col-md-6 .list-unstyled {
-    margin-right: 0; /* Puedes ajustar este valor según sea necesario */
-    padding-right: 10px; /* Ajusta el valor según sea necesario */
+/* Alinear la lista de redes sociales a la izquierda y agregar margen izquierdo */
+.social-list {
+    text-align: left;
+    padding-left: 50px; /* Ajusta este valor para mover los elementos más a la derecha */
+}
+
+.social-list li {
+    margin-left: 80px; /* Ajusta este valor para mover los elementos más a la derecha */
 }

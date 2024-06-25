@@ -5,7 +5,7 @@ const Contactanos = () => {
     return (
         <aside className="contact-container">
             <br />
-            <center><h2>Contactanos</h2></center>
+            <center><h2>Contáctanos</h2></center>
             <br />
             <div className="container">
                 <div className="row">

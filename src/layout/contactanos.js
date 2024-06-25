@@ -27,7 +27,7 @@ const Contactanos = () => {
 
                             <div className="mb-3">
                                 <label htmlFor="formGroupExampleInput3" className="form-label">
-                                    <i data-feather="users"></i> Mensaje:
+                                    <i class="bi bi-wechat"></i> Mensaje:
                                 </label>
                                 <textarea required className="form-control" id="formGroupExampleInput3" placeholder="Escribe tu mensaje aquí"></textarea>
                             </div>

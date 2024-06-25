@@ -6,22 +6,20 @@ const Footer = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-md-6">
-                        <h5>
+                    <h5>
                             Información de creador
-                        </h5>
-                        <p>
-                            Correo electrónico: svelasquezr1@upao.edu.pe
-                        </p>
-                        <p>
-                            Teléfono: 923-456-789
-                        </p>
+                    </h5>
+                        <br></br>
+                            <i>Correo electrónico :  pcbuldingws@upao.edu.pe</i><br></br>
+                            <i>Teléfono           :  923-456-789</i>
+                       
                     </div>
                     <div className="col-md-6">
                         <h5>Enlaces rápidos</h5>
                         <ul className="list-unstyled">
-                            <li><a href="#">Acerca de nosotros</a></li>
-                            <li><a href="#">Servicios</a></li>
-                            <li><a href="#">Contacto</a></li>
+                            <li><i><a href="#">Acerca de nosotros</a></i></li>
+                            <li><i><a href="#">Servicios</a></i></li>
+                            <li><i><a href="#">Contacto</a></i></li>
                         </ul>
                     </div>
                 </div>

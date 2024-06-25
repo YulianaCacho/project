@@ -22,9 +22,18 @@ const Preguntas = () => {
                         onClick={() => toggleAnswer(0)}
                     >
                         <div className="card-body">
-                            <i className="bi bi-chevron-right"></i> Pregunta 1
+                            <i className="bi bi-chevron-right"></i> 
+                            <strong>¿CUÁL ES LA DIFERENCIA ENTRE LOS PROCESADORES INTEL Y AMD?</strong>
                         </div>
-                        {activeIndex === 0 && <div className="card-body respuesta">Respuesta 1</div>}
+                        {activeIndex === 0 && 
+                           <div className="card-body respuesta">
+                             <br></br>
+                              <center>
+                              Los procesadores Intel y AMD tienen diferencias en arquitectura, rendimiento y precios. Intel suele ofrecer un mejor rendimiento por núcleo, 
+                              lo que es beneficioso para aplicaciones de un solo hilo, mientras que AMD ofrece más núcleos y hilos a un precio más competitivo, 
+                              lo cual es ideal para multitarea y aplicaciones multihilo.
+                              </center>
+                            </div>}
                     </div>
                     <div
                         className={`card btn-outline-primary mt-3 ${activeIndex === 1 ? 'active' : ''}`}

@@ -1,4 +1,5 @@
 import React from 'react';
+import { LuMessagesSquare } from "react-icons/lu";
 import '/workspaces/project/src/css/Contactanos.css';
 
 const Contactanos = () => {
@@ -27,7 +28,7 @@ const Contactanos = () => {
 
                             <div className="mb-3">
                                 <label htmlFor="formGroupExampleInput3" className="form-label">
-                                    <i class="bi bi-wechat"></i> Mensaje:
+                                <LuMessagesSquare /> Mensaje:
                                 </label>
                                 <textarea required className="form-control" id="formGroupExampleInput3" placeholder="Escribe tu mensaje aquí"></textarea>
                             </div>

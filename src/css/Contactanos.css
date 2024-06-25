@@ -2,6 +2,7 @@
     background-color: #f5f5fa;
     padding: 20px;
     border-radius: 20px;
+    border: 2px solid black; /* Añade un borde negro */
 }
 
 .contact-container h2 {
@@ -14,7 +15,7 @@
 
 .social-list {
     text-align: left;
-    margin-left: 30%;
+    margin-left: 30%; /* Ajusta este valor para mover la lista de redes sociales */
 }
 
 .social-list li {

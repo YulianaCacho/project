@@ -1,9 +1,9 @@
 import React from 'react';
-import '/workspaces/project/src/css/Contactanos.css'; 
+import '/workspaces/project/src/css/Contactanos.css'; // Asegúrate de crear e importar un archivo CSS para estilos personalizados
 
 const Contactanos = () => {
     return (
-        <contactanos style={{ backgroundColor: '#e1e2ef', padding: '20px' }}>
+        <aside className="contact-container">
             <br />
             <center><h2>Contactanos</h2></center>
             <br />
@@ -24,7 +24,7 @@ const Contactanos = () => {
                                 </label>
                                 <input type="email" required className="form-control" id="formGroupExampleInput2" placeholder="liliana_24@hotmail.com" />
                             </div>
-                            
+                         
                             <div className="mb-3">
                                 <label htmlFor="formGroupExampleInput3" className="form-label">
                                     <i data-feather="users"></i> Mensaje:
@@ -40,8 +40,8 @@ const Contactanos = () => {
                             <br />
                         </form>
                     </div>
-                    <div className="col-md-6">
-                        <center><h3 className="redes-title">Redes Sociales</h3></center>
+                    <div className="col-md-6 text-center">
+                        <h3 className="redes-title">Redes Sociales</h3>
                         <br />
                         <ul className="list-unstyled social-list">
                             <li><i data-feather="facebook"></i> Facebook</li>
@@ -55,8 +55,9 @@ const Contactanos = () => {
                     </div>
                 </div>
             </div>
-        </contactanos>
+        </aside>
     );
 };
 
 export default Contactanos;
+

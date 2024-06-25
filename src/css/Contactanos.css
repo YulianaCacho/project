@@ -1,14 +1,30 @@
-.redes-title {
-    text-align: center;
-    width: 100%;
+.contact-container {
+    background-color: #f5f5fa;
+    padding: 20px;
+    border-radius: 20px;
 }
 
-/* Alinear la lista de redes sociales a la izquierda y agregar margen izquierdo */
+.contact-container h2 {
+    margin-bottom: 20px;
+}
+
+.redes-title {
+    margin-bottom: 20px;
+}
+
 .social-list {
     text-align: left;
-    padding-left: 50px; /* Ajusta este valor para mover los elementos más a la derecha */
+    margin-left: 30%;
 }
 
 .social-list li {
-    margin-left: 80px; /* Ajusta este valor para mover los elementos más a la derecha */
+    margin-bottom: 10px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.social-list li i {
+    margin-right: 10px;
+    font-size: 20px;
 }

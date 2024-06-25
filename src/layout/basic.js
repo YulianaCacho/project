@@ -15,7 +15,6 @@ const Basic = () => {
                     </div>
                 </div>
                 <div><Contactanos /> </div>
-                <div></div>
                 <div> <Footer /> </div>
             </StrictMode>
         </>

@@ -1,5 +1,5 @@
 import React from 'react';
-import '/workspaces/project/src/css/Contactanos.css'; // Asegúrate de crear e importar un archivo CSS para estilos personalizados
+import '/workspaces/project/src/css/Contactanos.css';
 
 const Contactanos = () => {
     return (
@@ -17,14 +17,14 @@ const Contactanos = () => {
                                 </label>
                                 <input type="text" required className="form-control" id="formGroupExampleInput" placeholder="Diego Bohorquez Novoa" />
                             </div>
-                            
+
                             <div className="mb-3">
                                 <label htmlFor="formGroupExampleInput2" className="form-label">
                                     <i data-feather="mail"></i> Correo Electrónico:
                                 </label>
                                 <input type="email" required className="form-control" id="formGroupExampleInput2" placeholder="liliana_24@hotmail.com" />
                             </div>
-                         
+
                             <div className="mb-3">
                                 <label htmlFor="formGroupExampleInput3" className="form-label">
                                     <i data-feather="users"></i> Mensaje:

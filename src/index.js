@@ -24,15 +24,15 @@ const router = createBrowserRouter([
       {
         path: '',
         element: <>
-      <div>
-                <Preguntas></Preguntas>
-      </div> 
+          <div>
+            <Preguntas></Preguntas>
+          </div>
         </>
       },
 
       {
         path: "/detalle/:slug",
-        
+
       },
     ],
   },

@@ -28,7 +28,7 @@ const Footer = () => {
                 <hr></hr>
                 <div className="row">
                     <div className="col-md-12 text-center">
-                    <small>© 2024  | Todos los derechos reservados</small>
+                        <small>© 2024  | Todos los derechos reservados</small>
                     </div>
                 </div>
             </div>

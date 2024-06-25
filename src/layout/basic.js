@@ -8,13 +8,13 @@ const Basic = () => {
     return (
         <>
             <StrictMode>
-                <Hearder /> 
+                <Hearder />
                 <div className="container">
                     <div className="row py-4">
                         <Outlet></Outlet>
                     </div>
                 </div>
-                <div><Contactanos/> </div>
+                <div><Contactanos /> </div>
                 <div> <Footer /> </div>
             </StrictMode>
         </>

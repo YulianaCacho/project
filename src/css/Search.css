@@ -1,0 +1,43 @@
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.search-box {
+    background-color: #7b1fa2;
+    border-radius: 5px;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    transition: width 0.3s ease-in-out;
+    width: 300px;
+}
+
+.search-box.expanded {
+    width: 400px;
+}
+
+.search-box input[type="text"] {
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    width: 100%;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.search-box .shortcut {
+    background-color: #4a148c;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.bi-search {
+    font-size: 20px;
+    color: white;
+}

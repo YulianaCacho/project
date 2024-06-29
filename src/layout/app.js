@@ -1,14 +1,14 @@
 import React from 'react';
-import Search from '/workspaces/project/src/layout/Search';
-import TopSelection from '/workspaces/project/src/layout/TopSelection';
-import '/workspaces/project/src/styles.css'; // Opcional, para estilos globales adicionales
+import Search  from '/workspaces/project/src/layout/search' ;
+import TopSelection from '/workspaces/project/src/layout/topselection';
+import '/workspaces/project/src/css/Search.css'; 
+import '/workspaces/project/src/css/TopSelection.css'; 
 
 const App = () => {
     return (
         <div>
             <Search />
             <TopSelection />
-            {/* Aquí puedes añadir otros componentes como Header, Footer, etc. */}
         </div>
     );
 };

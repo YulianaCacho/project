@@ -19,8 +19,8 @@ const Search = () => {
     }, [expanded]);
 
     return (
-        <div className="search-container">
-            <div className={`search-box ${expanded ? 'expanded' : ''}`} id="searchBox">
+        <div className={`search-container ${expanded ? 'expanded' : ''}`} id="searchBox">
+            <div className="search-box">
                 <i className="bi bi-search"></i>
                 <input type="text" id="searchInput" placeholder="Buscar componentes" />
                 <span className="shortcut">Ctrl K</span>

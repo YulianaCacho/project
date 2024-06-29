@@ -23,7 +23,7 @@ const Search = () => {
             <div className="search-box">
                 <i className="bi bi-search"></i>
                 <input type="text" id="searchInput" placeholder="Buscar componentes" />
-                <span className="shortcut">Ctrl K</span>
+                <span className="shortcut">Ctrl+K</span>
             </div>
         </div>
     );

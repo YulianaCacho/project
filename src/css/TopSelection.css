@@ -3,20 +3,18 @@
     margin: 20px;
 }
 
-.top-selection h2 {
-    margin-bottom: 20px;
-}
 
 .top-selection-grid {
     display: flex;
-    justify-content: center;
-    gap: 20px;
+    justify-content: space-around;
+    gap: 90px;
 }
 
 .top-item {
     position: relative;
-    width: 200px;
+    width: 300px;
     height: 200px;
+    overflow: hidden;
 }
 
 .top-item img {
@@ -33,4 +31,8 @@
     width: 100%;
     text-align: center;
     padding: 10px 0;
+}
+
+.top-item img:hover {
+    transform: scale(1.1); /* Agranda la imagen en un 10% */
 }

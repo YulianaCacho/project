@@ -41,12 +41,13 @@
     border: none;
     outline: none;
     width: 100%;
+    font-size: 16px;
 }
 
 .search-box .shortcut {
     background-color: #ddd;
-    border-radius: 3px;
-    padding: 3px 5px;
+    border-radius: 5px;
+    padding: 3px 15px;
     margin-left: 10px;
     font-size: 0.8em;
     color: #666;

@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import '/workspaces/project/src/css/Header.css'; // Importar el archivo CSS para estilos personalizados
+import '/workspaces/project/src/css/Header.css'; 
 
 const Header = () => {
     return (
